@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib64
+includedir=${prefix}/include
+
+Name: libbase58
+Description: Library for Bitcoin's base58 encoding.
+Version: 0.1.4
+Libs: -L${libdir} -lbase58
+Cflags: -I${includedir}
